@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e7e950d-de56-471d-a5e8-1847498228ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/webserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/bin/webserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/apache2/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/apache2/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mysql/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/feedsTelevisa/config/autoload/local.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/feedsTelevisa/config/autoload/local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/feedsTelevisa/module/Deportes/src/Deportes/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/feedsTelevisa/module/Deportes/src/Deportes/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/test_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/test_db.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LAMP" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1X5B6rwqWrEJS0f0MIDg7BTFw21" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin/webserver" />
+      <recent name="$PROJECT_DIR$/bin/cron" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin/webserver" />
+      <recent name="$PROJECT_DIR$/bin/webserver/crontab" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.webserver: Compose Deployment">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.cron: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="cron" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.phpmyadmin: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="phpmyadmin" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.webserver: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="webserver" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.cron: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.phpmyadmin: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.mysql: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.webserver: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7e950d-de56-471d-a5e8-1847498228ec" name="Default Changelist" comment="" />
+      <created>1580325902895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580325902895</updated>
+      <workItem from="1580325904496" duration="3498000" />
+      <workItem from="1580342811209" duration="4474000" />
+      <workItem from="1580497141451" duration="915000" />
+      <workItem from="1580498177646" duration="7986000" />
+      <workItem from="1580516674171" duration="8248000" />
+      <workItem from="1580925886338" duration="20493000" />
+      <workItem from="1581005950536" duration="2134000" />
+      <workItem from="1581008550260" duration="9522000" />
+      <workItem from="1581018927911" duration="1065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="265" y="287" width="800" height="684" key="#Docker" timestamp="1581007407297">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="270" y="349" key="#Docker/0.23.2560.1322@0.23.2560.1322" timestamp="1580928952985" />
+    <state x="265" y="287" width="800" height="684" key="#Docker/70.27.1850.1053@70.27.1850.1053" timestamp="1581007407297" />
+    <state x="270" y="349" key="#Log_Highlighting_(ideolog)" timestamp="1580949632605">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="270" y="349" key="#Log_Highlighting_(ideolog)/0.23.2560.1322@0.23.2560.1322" timestamp="1580949632605" />
+    <state x="270" y="349" key="#New_Docker_Connection" timestamp="1580928976587">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="270" y="349" key="#New_Docker_Connection/0.23.2560.1322@0.23.2560.1322" timestamp="1580928976587" />
+    <state x="270" y="349" key="#Path_mapping" timestamp="1580928945575">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="270" y="349" key="#Path_mapping/0.23.2560.1322@0.23.2560.1322" timestamp="1580928945575" />
+    <state x="270" y="349" key="#Port_bindings" timestamp="1580948963465">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="270" y="349" key="#Port_bindings/0.23.2560.1322@0.23.2560.1322" timestamp="1580948963465" />
+    <state x="270" y="349" key="#Pull_Image" timestamp="1580928963040">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="270" y="349" key="#Pull_Image/0.23.2560.1322@0.23.2560.1322" timestamp="1580928963040" />
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581007189676">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1581007189676" />
+    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580513380576">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1322@0.23.2560.1322" timestamp="1580513380576" />
+    <state x="408" y="437" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580946549942">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="408" y="437" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1322@0.23.2560.1322" timestamp="1580946549942" />
+    <state x="382" y="250" key="#cronjob/Dockerfile" timestamp="1580500974100">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="382" y="250" key="#cronjob/Dockerfile/0.23.2560.1322@0.23.2560.1322" timestamp="1580500974100" />
+    <state x="382" y="262" key="#webserver/Dockerfile" timestamp="1580945695980">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="382" y="262" key="#webserver/Dockerfile/0.23.2560.1322@0.23.2560.1322" timestamp="1580945695980" />
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581015895839">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1581015895839" />
+    <state x="476" y="188" width="1037" height="737" key="SettingsEditor" timestamp="1581012302337">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="476" y="188" width="1037" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1581012302337" />
+    <state x="305" y="420" key="com.intellij.ide.util.TipDialog" timestamp="1581008550391">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="325" y="516" key="com.intellij.ide.util.TipDialog/0.23.2560.1322@0.23.2560.1322" timestamp="1580925891768" />
+    <state x="305" y="420" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1581008550391" />
+    <state x="317" y="348" width="757" height="588" key="find.popup" timestamp="1581010623093">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="342" y="426" width="801" height="580" key="find.popup/0.23.2560.1322@0.23.2560.1322" timestamp="1580926265073" />
+    <state x="317" y="348" width="757" height="588" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1581010623093" />
+  </component>
+</project>
