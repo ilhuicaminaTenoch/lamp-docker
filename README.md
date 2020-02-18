@@ -1,18 +1,18 @@
-# LAMP stack built with Docker Compose
+# LAMP construido con Docker Compose
 
-This is a basic LAMP stack environment built using Docker Compose. It consists following:
+Este es un entorno de LAMP básico creado con Docker Compose. Se instalan los siguientes programas:
 
 * PHP 7.1
 * Apache 2.4
 * MySQL 5.7
 * phpMyAdmin
 
-## Installation
+## Instalación
 
-Clone this repository on your local computer and switch to branch `7.1.x`. Run the `docker-compose up -d`.
+Clone este repositorio y cambie a la rama `7.1.x`. Ejecuta `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/sprintcube/docker-compose-lamp.git
+git clone git@github.com:televisa-digital/apps-feeds-generator.git docker-compose-lamp
 cd docker-compose-lamp/
 git fetch --all
 git checkout 7.1.x
@@ -20,57 +20,59 @@ cp sample.env .env
 docker-compose up -d
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost`.
+LAMP ya está listo!! Puedes acceder a través de `http://localhost`.
 
-## Configuration
+## Configuración
 
-This package comes with default configuration options. You can modify them by creating `.env` file in your root directory.
+Este paquete viene con opciones de configuración predeterminadas. Puede modificarlos creando el archivo `.env` en su directorio raíz.
 
-To make it easy, just copy the content from `sample.env` file and update the environment variable values as per your need.
+Para hacerlo más fácil, simplemente copie el contenido del archivo `sample.env` y actualice los valores de las variables de entorno según sus necesidades.
 
-### Configuration Variables
+### Configuración de variables
 
-There are following configuration variables available and you can customize them by overwritting in your own `.env` file.
+
+Existen las siguientes variables de configuración disponibles y puedes personalizarlas sobrescribiéndolas en su propio archivo `.env`.
 
 _**DOCUMENT_ROOT**_
 
-It is a document root for Apache server. The default value for this is `./www`. All your sites will go here and will be synced automatically.
+Es un documento raíz para el servidor Apache. El valor predeterminado para esto es `. /www`. Todos sus sitios irán aquí y se sincronizarán automáticamente.
 
 _**MYSQL_DATA_DIR**_
 
-This is MySQL data directory. The default value for this is `./data/mysql`. All your MySQL data files will be stored here.
+Este es el directorio de datos MySQL. El valor predeterminado para esto es `. /data/mysql`. Todos sus archivos de datos MySQL se almacenarán aquí.
 
 _**VHOSTS_DIR**_
 
-This is for virtual hosts. The default value for this is `./config/vhosts`. You can place your virtual hosts conf files here.
+Esto es para hosts virtuales. El valor predeterminado para esto es `. /config/vhosts`. Puede colocar sus archivos conf de hosts virtuales aquí.
 
-> Make sure you add an entry to your system's `hosts` file for each virtual host.
+> Asegúrese de agregar una entrada al archivo `hosts` de su sistema para cada host virtual.
 
 _**APACHE_LOG_DIR**_
 
-This will be used to store Apache logs. The default value for this is `./logs/apache2`.
+Esto se usará para almacenar registros de Apache. El valor predeterminado para esto es `./logs/apache2`.
 
 _**MYSQL_LOG_DIR**_
 
-This will be used to store Apache logs. The default value for this is `./logs/mysql`.
+Esto se usará para almacenar registros de Apache. El valor predeterminado para esto es `./logs/mysql`.
 
-## Web Server
 
-Apache is configured to run on port 80. So, you can access it via `http://localhost`.
+## Servidor Web
 
-#### Apache Modules
+Apache está configurado para ejecutarse en el puerto 80. Por lo tanto, puede acceder a través de `http://localhost`.
 
-By default following modules are enabled.
+#### Modulos Apache
 
-* rewrite
-* headers
+Por defecto, los siguientes módulos están habilitados.
 
-> If you want to enable more modules, just update `./bin/webserver/Dockerfile`. You can also generate a PR and we will merge if seems good for general purpose.
-> You have to rebuild the docker image by running `docker-compose build` and restart the docker containers.
+* Rewrite
+* Headers
 
-#### Connect via SSH
+> Si deseas habilitar más módulos, simplemente actualice `./bin/webserver/Dockerfile`.
+> Tienes que reconstruir la imagen ejecutando`docker-compose build` y reiniciar los contenedores.
 
-You can connect to web server using `docker-compose exec` command to perform various operation on it. Use below command to login to container via ssh.
+#### Conexión vía SSH
+
+Puede conectarse al servidor web utilizando `docker-compose exec` comando para realizar varias operaciones en él. Utilice el siguiente comando para iniciar sesión en el contenedor a través de ssh.
 
 ```shell
 docker-compose exec webserver bash
@@ -78,11 +80,11 @@ docker-compose exec webserver bash
 
 ## PHP
 
-The installed version of PHP is 7.1.
+La versión instalada de PHP es 7.1.
 
-#### Extensions
+#### Extensiones
 
-By default following extensions are installed.
+Por defecto se instalan las siguientes extensiones.
 
 * mysqli
 * mbstring
@@ -96,17 +98,19 @@ By default following extensions are installed.
 * xmlrpc
 * gd
 
-> If you want to install more extension, just update `./bin/webserver/Dockerfile`. You can also generate a PR and we will merge if seems good for general purpose.
-> You have to rebuild the docker image by running `docker-compose build` and restart the docker containers.
+> Si deseas instalar más extensiones, solo actualice `./bin/webserver/Dockerfile`.
+> Tienes que reconstruir la imagen ejecutando `docker-compose build` y reiniciar los contenedores de Docker.
 
 ## phpMyAdmin
 
-phpMyAdmin is configured to run on port 8080. Use following default credentials.
+phpMyAdmin está configurado para ejecutarse en el puerto 8080. Use las credenciales predeterminadas.
 
 http://localhost:8080/  
 username: root  
 password: tiger
 
-## Redis
+## Cron
+Para poder configurar las tareas programadas hay que realizar los siguientes:
 
-It comes with Redis. It runs on default port `6379`.
+    1.-Crear un archivo en el directorio /bin/cron/nombre_archivo.sh y agregar el curl a la petición ( ver el archivo test.sh ).
+    2.-Modificar el archivo /bin/cron/entrypoint.sh. Para agregar las configuraciones del crontab.

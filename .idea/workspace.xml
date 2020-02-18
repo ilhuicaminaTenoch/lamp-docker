@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7e950d-de56-471d-a5e8-1847498228ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/webserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/bin/webserver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/apache2/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/apache2/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mysql/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/feedsTelevisa/config/autoload/local.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/feedsTelevisa/config/autoload/local.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/feedsTelevisa/module/Deportes/src/Deportes/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/feedsTelevisa/module/Deportes/src/Deportes/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/test_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/test_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/apache2/other_vhosts_access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/apache2/other_vhosts_access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cron/cron.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cron/cron.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cron/cron_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cron/cron_test.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +157,8 @@
       <workItem from="1581005950536" duration="2134000" />
       <workItem from="1581008550260" duration="9522000" />
       <workItem from="1581018927911" duration="1065000" />
+      <workItem from="1581442676708" duration="3248000" />
+      <workItem from="1582050783065" duration="2262000" />
     </task>
     <servers />
   </component>
@@ -205,10 +208,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1581007189676" />
-    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580513380576">
+    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581442953080">
       <screen x="0" y="23" width="2560" height="1322" />
     </state>
-    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1322@0.23.2560.1322" timestamp="1580513380576" />
+    <state x="423" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1322@0.23.2560.1322" timestamp="1581442953080" />
     <state x="408" y="437" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580946549942">
       <screen x="0" y="23" width="2560" height="1322" />
     </state>
@@ -221,10 +224,18 @@
       <screen x="0" y="23" width="2560" height="1322" />
     </state>
     <state x="382" y="262" key="#webserver/Dockerfile/0.23.2560.1322@0.23.2560.1322" timestamp="1580945695980" />
+    <state x="101" y="123" width="1139" height="1121" key="DiffContextDialog" timestamp="1582051069062">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="101" y="123" width="1139" height="1121" key="DiffContextDialog/0.23.2560.1322@0.23.2560.1322" timestamp="1582051069062" />
     <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581015895839">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1581015895839" />
+    <state x="527" y="591" key="Github.Dialog.Accounts.Choose" timestamp="1582050941664">
+      <screen x="0" y="23" width="2560" height="1322" />
+    </state>
+    <state x="527" y="591" key="Github.Dialog.Accounts.Choose/0.23.2560.1322@0.23.2560.1322" timestamp="1582050941664" />
     <state x="476" y="188" width="1037" height="737" key="SettingsEditor" timestamp="1581012302337">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
